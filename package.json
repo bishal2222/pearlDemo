@@ -1,6 +1,8 @@
 {
   "scripts":{
-    "open-cypress":"cypress open"
+    "open-cypress":"cypress open",
+    "open-cypress:chrome": "cypress run --headed --browser chrome",
+    "open-cypress:firefox": "cypress run --headed --browser firefox"
   },
 
   "devDependencies": {
